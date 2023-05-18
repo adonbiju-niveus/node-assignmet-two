@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/data
+content-type: application/json
+
+{
+    "name": "Adon Biju",
+    "age": "23",
+    "Mobile":"1234560789",
+    "place":"Kerala"
+}
+
+###
+
+GET  http://localhost:3000/api/1000?name=Adon
